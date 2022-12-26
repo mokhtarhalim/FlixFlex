@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#000000</color>
+    <color name="secondaryColor">#303030</color>
+    <color name="thirdColor">#E50914</color>
+
+    <color name="quantum_grey400">#bdbdbd</color>
+    <color name="yellow_star">#FFBD35</color>
+    <color name="white_gray">#949BA7</color>
+
+</resources>

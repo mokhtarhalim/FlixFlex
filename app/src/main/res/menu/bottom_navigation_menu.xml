@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btn_movie"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie"
+        android:title="@string/movies"
+        android:iconTint="@color/white" />
+    <item
+        android:id="@+id/btn_serie"
+        android:enabled="true"
+        android:icon="@drawable/ic_serie"
+        android:title="@string/series"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/btn_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/btn_profil"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profil"
+        android:iconTint="@color/white" />
+</menu>
