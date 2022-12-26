@@ -6,8 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.halim.flixflex.R;
 import com.google.android.material.snackbar.Snackbar;
+import com.halim.flixflex.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

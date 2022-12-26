@@ -30,12 +30,12 @@ import com.halim.flixflex.Cast.CastItem;
 import com.halim.flixflex.Cast.CastRecyclerAdapter;
 import com.halim.flixflex.ClassesUtils.StaticMethods;
 import com.halim.flixflex.ClassesUtils.URLs;
-import com.halim.flixflex.Videos.VideoDataExtract;
-import com.halim.flixflex.Videos.VideosItem;
 import com.halim.flixflex.Movies.MoviesItem;
 import com.halim.flixflex.Movies.MoviesItemDataExtract;
 import com.halim.flixflex.Movies.MoviesRecyclerAdapter;
 import com.halim.flixflex.R;
+import com.halim.flixflex.Videos.VideoDataExtract;
+import com.halim.flixflex.Videos.VideosItem;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -19,9 +19,9 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
+import com.google.android.material.card.MaterialCardView;
 import com.halim.flixflex.R;
 import com.halim.flixflex.Series.Detail.DetailSerieActivity;
-import com.google.android.material.card.MaterialCardView;
 import com.makeramen.roundedimageview.RoundedImageView;
 
 import java.util.ArrayList;
@@ -89,7 +89,6 @@ public class SeriesRecyclerAdapter extends RecyclerView.Adapter<SeriesRecyclerAd
         // creating a variable
         private MaterialCardView showCard;
         private RoundedImageView posterPicture;
-        private LinearLayout ratingContainer;
         private RatingBar ratingBar;
         private TextView voteAverage;
         private TextView voteCount;
@@ -101,7 +100,6 @@ public class SeriesRecyclerAdapter extends RecyclerView.Adapter<SeriesRecyclerAd
             // initializing our variables.
             showCard = itemView.findViewById(R.id.showCard);
             posterPicture = itemView.findViewById(R.id.posterPicture);
-            ratingContainer = itemView.findViewById(R.id.ratingContainer);
             ratingBar = itemView.findViewById(R.id.ratingBar);
             voteAverage = itemView.findViewById(R.id.voteAverage);
             voteCount = itemView.findViewById(R.id.voteCount);

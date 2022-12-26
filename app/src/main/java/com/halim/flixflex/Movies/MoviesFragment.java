@@ -18,10 +18,10 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.halim.flixflex.ClassesUtils.StaticMethods;
 import com.halim.flixflex.ClassesUtils.URLs;
 import com.halim.flixflex.R;
-import com.facebook.shimmer.ShimmerFrameLayout;
 
 import org.json.JSONException;
 import org.json.JSONObject;

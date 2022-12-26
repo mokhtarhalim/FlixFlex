@@ -1,17 +1,12 @@
 package com.halim.flixflex.ClassesUtils;
 
 /**
- *
  * Class that contains all our URLs for our API
- *
  */
 
 public class URLs {
     //Image Base URL
     public static String BASE_URL_IMAGE = "https://image.tmdb.org/t/p/w500";
-
-    //Vimeo watch
-    public static String VIMEO_WATCH = "https://vimeo.com/";
 
     //API Key
     public static String API_KEY = "848f1c3fc0eaf715c7a433d9b38c4af6";

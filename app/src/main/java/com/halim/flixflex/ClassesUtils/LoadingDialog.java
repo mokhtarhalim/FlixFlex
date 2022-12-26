@@ -13,9 +13,7 @@ import androidx.annotation.NonNull;
 import com.halim.flixflex.R;
 
 /**
- *
  * Class of a loading dialog
- *
  */
 
 public class LoadingDialog extends Dialog {

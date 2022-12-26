@@ -21,6 +21,9 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.facebook.shimmer.ShimmerFrameLayout;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.halim.flixflex.ClassesUtils.StaticMethods;
 import com.halim.flixflex.ClassesUtils.URLs;
 import com.halim.flixflex.Movies.MoviesItem;
@@ -30,9 +33,6 @@ import com.halim.flixflex.R;
 import com.halim.flixflex.Series.SeriesItem;
 import com.halim.flixflex.Series.SeriesItemDataExtract;
 import com.halim.flixflex.Series.SeriesRecyclerAdapter;
-import com.facebook.shimmer.ShimmerFrameLayout;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -43,7 +43,6 @@ public class SearchFragment extends Fragment {
 
     private Context context;
 
-    private TextInputLayout search_layout;
     private TextInputEditText search_input;
     private RecyclerView moviesRecyclerview;
     private RecyclerView seriesRecyclerview;
@@ -150,7 +149,6 @@ public class SearchFragment extends Fragment {
     }
 
     private void findViewsById(View rootView) {
-        search_layout = rootView.findViewById(R.id.search_layout);
         search_input = rootView.findViewById(R.id.search_input);
         moviesRecyclerview = rootView.findViewById(R.id.moviesRecyclerview);
         idPBLoadingMovies = rootView.findViewById(R.id.idPBLoadingMovies);

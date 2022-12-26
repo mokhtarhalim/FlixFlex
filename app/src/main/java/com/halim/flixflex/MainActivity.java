@@ -5,11 +5,11 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.halim.flixflex.Movies.MoviesFragment;
 import com.halim.flixflex.Profil.ProfilFragment;
 import com.halim.flixflex.Search.SearchFragment;
 import com.halim.flixflex.Series.SeriesFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 

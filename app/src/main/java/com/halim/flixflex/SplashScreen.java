@@ -7,9 +7,9 @@ import android.os.Looper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.halim.flixflex.ClassesUtils.ClosingService;
 import com.halim.flixflex.Connection.LoginActivity;
-import com.google.firebase.auth.FirebaseAuth;
 
 public class SplashScreen extends AppCompatActivity {
 

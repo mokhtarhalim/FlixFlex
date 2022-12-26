@@ -13,15 +13,15 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import com.halim.flixflex.ClassesUtils.LoadingDialog;
-import com.halim.flixflex.ClassesUtils.StaticMethods;
-import com.halim.flixflex.Connection.LoginActivity;
-import com.halim.flixflex.R;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.halim.flixflex.ClassesUtils.LoadingDialog;
+import com.halim.flixflex.ClassesUtils.StaticMethods;
+import com.halim.flixflex.Connection.LoginActivity;
+import com.halim.flixflex.R;
 
 public class ProfilFragment extends Fragment {
 

@@ -30,12 +30,12 @@ import com.halim.flixflex.Cast.CastItem;
 import com.halim.flixflex.Cast.CastRecyclerAdapter;
 import com.halim.flixflex.ClassesUtils.StaticMethods;
 import com.halim.flixflex.ClassesUtils.URLs;
-import com.halim.flixflex.Videos.VideoDataExtract;
-import com.halim.flixflex.Videos.VideosItem;
 import com.halim.flixflex.R;
 import com.halim.flixflex.Series.SeriesItem;
 import com.halim.flixflex.Series.SeriesItemDataExtract;
 import com.halim.flixflex.Series.SeriesRecyclerAdapter;
+import com.halim.flixflex.Videos.VideoDataExtract;
+import com.halim.flixflex.Videos.VideosItem;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -229,7 +229,7 @@ public class DetailSerieActivity extends AppCompatActivity {
                 inProduction = "Finished";
             }
 
-            runtime.setText(jsonObj.getInt("number_of_seasons") + " Season(s) " + getString(R.string.bullet) + " " + jsonObj.getInt("number_of_episodes") + " Episodes " + getString(R.string.bullet) + " " + inProduction);
+            runtime.setText(jsonObj.getInt("number_of_seasons") + getString(R.string.season_s) + getString(R.string.bullet) + " " + jsonObj.getInt("number_of_episodes") + getString(R.string.episodes) + getString(R.string.bullet) + " " + inProduction);
 
             //Display genre of the serie
             String genreMovie = "";
