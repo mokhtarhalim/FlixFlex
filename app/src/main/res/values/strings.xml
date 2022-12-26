@@ -41,4 +41,6 @@
     <string name="login_success">login success</string>
     <string name="email_not_valid">Email not valid</string>
     <string name="password_must_contains">Password must contains at least 8 Caracters and digits</string>
+    <string name="season_s">" Season(s) "</string>
+    <string name="episodes">" Episodes "</string>
 </resources>
