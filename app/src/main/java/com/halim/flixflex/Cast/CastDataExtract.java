@@ -1,7 +1,5 @@
 package com.halim.flixflex.Cast;
 
-import android.util.Log;
-
 import com.halim.flixflex.ClassesUtils.URLs;
 
 import org.json.JSONArray;
@@ -25,7 +23,6 @@ public class CastDataExtract {
                         URLs.BASE_URL_IMAGE + a.getString("profile_path")
                 ));
             } catch (Exception e) {
-                Log.d("catch", "catch: " + e);
             }
         }
         return castItems;
