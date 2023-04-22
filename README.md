@@ -1,5 +1,5 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="FlixFlex_0"></a>FlixFlex</h1>
-<h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="_Your_movie_app_is_available__1"></a><em>Your movie app is available</em></h2>
+<h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="_Your_movie_app_is_available__1"></a><em>Your Android movie app is available</em></h2>
 <p class="has-line-data" data-line-start="3" data-line-end="5">FlixFlex is an Android Mobile Application, that display movies and series with all specifications.<br>
 With FlixFlex you can:</p>
 <ul>
